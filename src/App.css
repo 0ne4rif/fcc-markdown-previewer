@@ -1,0 +1,44 @@
+body {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  background-color: #015471;
+}
+
+#title {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 1900px;
+  padding: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+#editor,
+#preview {
+  padding: 10px;
+  border: 2px solid #015d9d;
+  max-width: 800px;
+}
+
+#preview {
+  background-color: #fff;
+}
+
+/* styling for image */
+img[src*="#thumbnail"] {
+  max-width: 700px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Align divs to the left and right */
+  padding: auto;
+}
